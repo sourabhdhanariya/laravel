@@ -6,8 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <div>
-        @yield('container')
-    </div>
+<h2>{{ $exception->getMessage() }}</h2>
 </body>
 </html>
